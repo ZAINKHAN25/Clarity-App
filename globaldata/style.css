@@ -17,7 +17,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column ;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -45,6 +45,16 @@ body {
     filter: drop-shadow(3px 4px 4px rgba(0,0,0 , 25%));
 }
 
+a{
+    text-decoration: none;
+    color: #FFB803;
+    transition: all .3s;
+}
+
+a:hover{
+    color: #bd8700;
+}
+
 .card{
     width: 80vw;
     background-color: #CFB4B4;
@@ -53,18 +63,23 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 60vh;
-    overflow-y: hidden;
+    overflow-x: hidden;
     border-radius: 15px;
     box-shadow: 5px 5px 10px #B7A6A6;
 }
 
-.inputline{
-    width: 80vw;
-    text-align: center;
+.inputofgloabaldatadiv{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    color: #8B7E7E;
+    font-size: 30px;
+    font-family: sans-serif;
+    align-items: center;
 }
 
-#inputoflocal{
-    width: 60vw;
+#useremail, #userpassword{
+    width: 30vw;
     background-color: #CFB4B4;
     border: 5px solid #FFB803;
     margin-right: 20px;
@@ -72,60 +87,11 @@ body {
     border-radius: 20px;
 }
 
-.magnifyingglasslocal{
-    padding: 15px;
+.btnofglobaldata{
+    width: 50vw;
+    padding: 15px 0px;
     background-color: #FFB803;
-    border-radius: 100%;
-    color: white;
-    font-size: 20px;
-    transition: all .5s;
-}
-
-.magnifyingglasslocal:hover{
-    background-color: #ffcb46;
-}
-
-.dataoflocal{
-    width: 60vw;
-    text-align: left;
-    height: 30vh;
-    overflow-x: hidden;
-}
-
-.dataoflocal ul{
-    color: #ffcb48;
-    text-decoration: dotted;
-}
-
-.dataoflocal ul li{
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
-    font-size: x-large;
-    background-color: transparent;
-    transition: all .3s;
-    padding: 5px 10px;
-    border-radius: 10px;
-}
-
-.dataoflocal ul li:hover{
-    background-color: #ffe0e0;
-    color: #d3aa44;
-}
-
-.fontarea i{
-    margin-right: 10px;
-    transition: all .3s;
-}
-
-.fontarea i:hover{
-    color: #ffb700;
-}
-
-#deletallbtninlocal{
-    width: 60vw;
-    background-color: #FFB803;
-    height: 40px;
+    height: 60px;
     color: #8B7E7E;
     font-size: 20px;
     font-family: Averia Serif Libre;
@@ -135,16 +101,14 @@ body {
     border-radius: 15px;
     transition: all .4s;
 }
-#deletallbtninlocal:hover{
+.btnofglobaldata:hover{
     background-color: white;
 }
 
-a{
-    text-decoration: none;
-    color: #FFB803;
-    transition: all .3s;
-}
-
-a:hover{
-    color: #bd8700;
+.spanofor{
+    color: #8B7E7E;
+font-size: 20px;
+font-family: Averia Serif Libre;
+font-weight: 700;
+word-wrap: break-word
 }
