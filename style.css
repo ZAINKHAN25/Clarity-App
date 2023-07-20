@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8E0E0;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#headingofhead {
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+    color: #FFB803;
+    font-size: 80px;
+    font-family: Ingrid Darling;
+    font-weight: 400;
+    word-wrap: break-word;
+    filter: drop-shadow(3px 4px 4px rgba(0,0,0 , 25%));
+}
+
+.optionsofdata{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 40vw;
+    background-color: #CFB4B4;
+    border: 1px solid #bdabab;
+    box-shadow: 14px 14px 20px #B7A6A6;
+    height: 50vh;
+    overflow-x: hidden;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.headingofcard{
+    color: #FFB803;
+    font-size: 40px;
+    font-family: IM FELL Great Primer SC;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-family: sans-serif,'Open Sans';
+    border-bottom: 4px solid #FFB803;
+    padding-bottom: 5px;
+    width: 37vw;
+    margin-bottom: 5px;
+}
+
+.descriptionofcard{
+    color: #fdbd19;
+    font-size: 20px;
+    font-family: Inder;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: justify;
+    margin-top: -20px;
+}
+
+.btnofdata{
+    width: 80%;
+    font-size: 25px;
+    font-family: Averia Serif Libre;
+    font-weight: 700;
+    word-wrap: break-word;
+    background-color: #fdbd19;
+    padding: 1% 5%;
+}
+
+a{
+    word-wrap: break-word;
+    text-decoration: none;
+    color: #8B7E7E;
+}
