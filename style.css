@@ -89,10 +89,16 @@ ul{
     word-wrap: break-word;
     background-color: #fdbd19;
     padding: 1% 5%;
+    border-radius: 10px;
+    transition: all .5s;
 }
 
 a{
     word-wrap: break-word;
     text-decoration: none;
     color: #8B7E7E;
+}
+
+.btnofdata:hover{
+    background-color: #fff;
 }

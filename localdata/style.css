@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Open+Sans&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8E0E0;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headingofbody {
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+    color: #FFB803;
+    font-size: 80px;
+    font-family: Ingrid Darling;
+    font-weight: 400;
+    word-wrap: break-word;
+    filter: drop-shadow(3px 4px 4px rgba(0,0,0 , 25%));
+}
+
+.welcomeline{
+    color: #FFB803;
+    font-size: 40px;
+    font-family: IM FELL Great Primer SC;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 80vw;
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: 3px solid #FFB803;
+    filter: drop-shadow(3px 4px 4px rgba(0,0,0 , 25%));
+}
+
+.card{
+    width: 80vw;
+    background-color: #CFB4B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    overflow-y: hidden;
+    border-radius: 15px;
+}
+
+.inputline{
+    width: 80vw;
+    text-align: center;
+}
+
+#inputoflocal{
+    width: 60vw;
+    background-color: #CFB4B4;
+    border: 5px solid #FFB803;
+    margin-right: 20px;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.magnifyingglasslocal{
+    padding: 15px;
+    background-color: #FFB803;
+    border-radius: 100%;
+    color: white;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+.magnifyingglasslocal:hover{
+    background-color: #ffcb46;
+}
+
+.dataoflocal{
+    width: 60vw;
+    text-align: left;
+    height: 30vh;
+    overflow-x: hidden;
+}
+
+.dataoflocal ul{
+    color: #FFCF52;
+    text-decoration: dotted;
+}
+
+.dataoflocal ul li{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    background-color: transparent;
+    transition: all .3s;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.dataoflocal ul li:hover{
+    background-color: #ffe0e0;
+    color: #d3aa44;
+}
+
+.fontarea i{
+    margin-right: 10px;
+    transition: all .3s;
+}
+
+.fontarea i:hover{
+    color: #ffb700;
+}
+
+#deletallbtninlocal{
+    width: 60vw;
+    background-color: #FFB803;
+    height: 40px;
+    color: #8B7E7E;
+    font-size: 20px;
+    font-family: Averia Serif Libre;
+    font-weight: 700;
+    word-wrap: break-word;
+    border: none;
+    border-radius: 15px;
+    transition: all .4s;
+}
+#deletallbtninlocal:hover{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #FFB803;
+    transition: all .3s;
+}
+
+a:hover{
+    color: #bd8700;
+}
